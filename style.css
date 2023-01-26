@@ -5,7 +5,7 @@
   font-size: 100%;
   margin: 0;
   padding: 0;
-  border: 1px solid rgb(131, 131, 131);
+  /* border: 1px solid rgb(131, 131, 131); */
 }
 .page-container {
   display: grid;
@@ -149,7 +149,8 @@ main h3 {
   grid-auto-rows: 200px;
   gap: 1.5rem;
 }
-.card {
+.card,
+.right-card {
   border-radius: 8px;
   border-left: 8px solid #f0b42a;
   padding: 1.5rem 1.5rem 1.5rem 1rem;
@@ -160,4 +161,33 @@ main h3 {
 }
 .card > :last-child {
   justify-self: end;
+  display: flex;
+  gap: 2rem;
+}
+.card i {
+  font-size: 1rem;
+}
+.right-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+}
+.right-card {
+  border: none;
+  padding: 1.5rem;
+  grid-template-columns: 1fr;
+}
+.announcements .right-card > :not(:last-child) {
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid gray;
+}
+.announcements .right-card p {
+  font-size: 0.8rem;
+  color: #777;
+}
+main h4 {
+  font-size: 0.8rem;
+  color: black;
+  margin-bottom: 0.2rem;
 }

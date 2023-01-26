@@ -21,7 +21,7 @@ const cards = [
   },
   {
     heading: "Card heading",
-    text: "Ffdjkghi sduioyfaoidsuygfoiadsuf iuysdfgoiasduhgf iusdfhgaoidsuh oiaudfygoiaudsyh oiuasdyhiuay oiusdyiouygauyrgp9a 8eryp98 p9er8yp 98p98 up98y p98y p98y p8 ep98rpe8 p98 dfgdsf",
+    text: "Ffdjkghi sduioyfaoidsuygfoiadsuf iuysdfgoiasduhyh oiuasdyhiuay oiusdyiouygauyrgp9a 8eryp98 p9er8yp 98p98 up98y p98y p98y p8 ep98rpe8 p98 dfgdsf",
   },
   {
     heading: "Card heading",
@@ -29,7 +29,7 @@ const cards = [
   },
   {
     heading: "Card heading",
-    text: "Ffdjkghi sduioyfaoidsuygfoiadsuf iuysdfgoiasduhgf iusdfhgaoidsuh oiaudfygoiaudsyh oiuasdyhiuay oiusdyiouygauyrgp9a 8eryp98 p9er8yp 98p98 up98y p98y p98y p8 ep98rpe8 p98 dfgdsf",
+    text: "Ffdjkghi sduioyfaoidsuyg",
   },
   {
     heading: "Card heading",
@@ -37,10 +37,15 @@ const cards = [
   },
   {
     heading: "Card heading",
-    text: "Ffdjkghi sduioyfaoidsuygfoiadsuf iuysdfgoiasduhgf iusdfhgaoidsuh oiaudfygoiaudsyh oiuasdyhiuay oiusdyiouygauyrgp9a 8eryp98 p9er8yp 98p98 up98y p98y p98y p8 ep98rpe8 p98 dfgdsf",
+    text: "Ffdjkghi sduioyfaoidsuygfoiay oiusdyiouygauyrgp9a 8eryp98 p9er8yp 98p98 up98y p98y p98y p8 ep98rpe8 p98 dfgdsf",
   },
 ];
-const cardIcons = "icon icon icon";
+const cardIcons = `<i class="material-icons-outlined">
+star_outline
+</i><i class="material-icons-outlined">visibility
+</i><i class="material-icons-outlined">
+share
+</i>`;
 const userName = "Biggus Dickus";
 userNameSmall.textContent = userName;
 userNameBig.textContent = `${userName} (@${userName

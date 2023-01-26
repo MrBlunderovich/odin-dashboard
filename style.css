@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
 * {
   box-sizing: border-box;
   font-family: inherit;
@@ -10,10 +10,11 @@
 .page-container {
   display: grid;
   grid-template-columns: clamp(12rem, 20%, 14rem) 1fr;
-  grid-template-rows: min-content;
+  grid-template-rows: auto 1fr;
   min-height: 100vh;
   font-family: "Roboto";
 }
+/* ---------------------------sidebar */
 .sidebar {
   grid-row: 1 / span 2;
   padding: 1.5rem;
@@ -62,4 +63,44 @@
 }
 .sidebar__menu li i {
   padding-bottom: 0.2rem;
+}
+/* -----------------header */
+.header {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto;
+  font-weight: 700;
+  padding: 0 5vw;
+}
+.header__searchbar,
+.header__navbar {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+.header input[type="search"] {
+  height: 1.4rem;
+  flex: 1 1 30rem;
+  border-radius: 0.7rem;
+  border: 0;
+  background-color: #ccc;
+  padding: 0.3rem 0.5rem;
+  font-weight: 300;
+}
+.header input[type="search"]:focus {
+  outline: none;
+}
+.header .whitespace {
+  flex: 5 1 3rem;
+}
+.userpic {
+  --userpic-size: 3rem;
+  height: var(--userpic-size);
+  width: var(--userpic-size);
+  border-radius: 50%;
+}
+.userpic-big {
+  /* --userpic-size: calc(var(--userpic-size) * 1.5); */
+  height: calc(var(--userpic-size) * 1.5);
+  width: calc(var(--userpic-size) * 1.5);
 }

@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
 * {
   box-sizing: border-box;
   font-family: inherit;
@@ -11,6 +12,7 @@
   grid-template-columns: 1fr 4fr;
   grid-template-rows: min-content;
   min-height: 100vh;
+  font-family: "Roboto";
 }
 .sidebar {
   grid-row: 1 / span 2;

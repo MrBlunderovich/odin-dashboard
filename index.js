@@ -40,6 +40,23 @@ const cards = [
     text: "Ffdjkghi sduioyfaoidsuygfoiay oiusdyiouygauyrgp9a 8eryp98 p9er8yp 98p98 up98y p98y p98y p8 ep98rpe8 p98 dfgdsf",
   },
 ];
+const announcementsBlock = document.querySelector(
+  ".announcements > .right-card"
+);
+const announcements = [
+  {
+    heading: "Upcoming Event 1",
+    text: "dfuighwieurh ieruahsdiu isudhaisdu sdiuhfsda",
+  },
+  {
+    heading: "Upcoming Event 2",
+    text: "dfuighwieurh ieruahsdiu isudhaisdu sdiuhfsda",
+  },
+  {
+    heading: "Upcoming Event 3",
+    text: "dfuighwieurh ieruahsdiu isudhaisdu sdiuhfsda",
+  },
+];
 const cardIcons = `<i class="material-icons-outlined">
 star_outline
 </i><i class="material-icons-outlined">visibility
@@ -66,6 +83,15 @@ cardContainer.innerHTML = cards
       ${card.text}
     </p>
     <div class="card-icon-container">${cardIcons}</div>
+  </div>`
+  )
+  .join("");
+announcementsBlock.innerHTML = announcements
+  .map(
+    (item) =>
+      `<div class="announcements__item">
+    <h4>${item.heading}</h4>
+    <p>${item.text}</p>
   </div>`
   )
   .join("");

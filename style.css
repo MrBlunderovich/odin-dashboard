@@ -165,7 +165,10 @@ main h3 {
   gap: 2rem;
 }
 .card i {
-  font-size: 1rem;
+  font-size: 1.2rem;
+}
+.card p {
+  color: #555;
 }
 .right-container {
   display: grid;
@@ -184,7 +187,7 @@ main h3 {
 }
 .announcements .right-card p {
   font-size: 0.8rem;
-  color: #777;
+  color: #555;
 }
 main h4 {
   font-size: 0.8rem;

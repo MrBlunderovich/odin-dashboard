@@ -9,14 +9,14 @@
 }
 .page-container {
   display: grid;
-  grid-template-columns: 1fr 4fr;
+  grid-template-columns: clamp(12rem, 20%, 14rem) 1fr;
   grid-template-rows: min-content;
   min-height: 100vh;
   font-family: "Roboto";
 }
 .sidebar {
   grid-row: 1 / span 2;
-  padding: 1rem;
+  padding: 1.5rem;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -30,6 +30,7 @@
   align-items: center;
   font-size: 1.2rem;
   font-weight: 500;
+  margin: -5px 0 0 -5px;
 }
 .logo {
   --logo-size: 2rem;

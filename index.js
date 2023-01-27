@@ -17,27 +17,27 @@ const menuItems = [
 const cards = [
   {
     heading: "Card heading",
-    text: "Ffdjkghi sduioyfaoidsuygfoiadsuf iuysdfgoiasduhgf iusdfhgaoidsuh oiaudfygoiaudsyh oiuasdyhiuay oiusdyiouygauyrgp9a 8eryp98 p9er8yp 98p98 up98y p98y p98y p8 ep98rpe8 p98 dfgdsf",
+    text: "Lorem ipsum dolor sit amet, consectetur blanditiis labore magni. Culpa sit necessitatibus blanditiis voluptates explicabo!",
   },
   {
     heading: "Card heading",
-    text: "Ffdjkghi sduioyfaoidsuygfoiadsuf iuysdfgoiasduhyh oiuasdyhiuay oiusdyiouygauyrgp9a 8eryp98 p9er8yp 98p98 up98y p98y p98y p8 ep98rpe8 p98 dfgdsf",
+    text: "Lorem ipsum dolor  adipisicing elit. Atque nam nihil recusandae magni. Culpa sit necessitatibus blanditiis voluptates explicabo!",
   },
   {
     heading: "Card heading",
-    text: "Ffdjkghi sduioyfaoidsuygfoiadsuf iuysdfgoiasduhgf iusdfhgaoidsuh oiaudfygoiaudsyh oiuasdyhiuay oiusdyiouygauyrgp9a 8eryp98 p9er8yp 98p98 up98y p98y p98y p8 ep98rpe8 p98 dfgdsf",
+    text: "Lorem ipsum dolor sit tatis sunt blanditiis labore magni. Culpa sit necessitatibus blanditiis voluptates explicabo!",
   },
   {
     heading: "Card heading",
-    text: "Ffdjkghi sduioyfaoidsuyg",
+    text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque nam nihil recusandae veritatis sunt blanditiis labore magni. Culpa sit necessitatibus blanditiis voluptates explicabo!",
   },
   {
     heading: "Card heading",
-    text: "Ffdjkghi sduioyfaoidsuygfoiadsuf iuysdfgoiasduhgf iusdfhgaoidsuh oiaudfygoiaudsyh oiuasdyhiuay oiusdyiouygauyrgp9a 8eryp98 p9er8yp 98p98 up98y p98y p98y p8 ep98rpe8 p98 dfgdsf",
+    text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque nam nihil recusandae veritatis sunt blanditiis labore magni.",
   },
   {
     heading: "Card heading",
-    text: "Ffdjkghi sduioyfaoidsuygfoiay oiusdyiouygauyrgp9a 8eryp98 p9er8yp 98p98 up98y p98y p98y p8 ep98rpe8 p98 dfgdsf",
+    text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque nam  labore magni. Culpa sit necessitatibus blanditiis voluptates explicabo!",
   },
 ];
 const announcementsBlock = document.querySelector(
@@ -46,15 +46,15 @@ const announcementsBlock = document.querySelector(
 const announcements = [
   {
     heading: "Upcoming Event 1",
-    text: "dfuighwieurh ieruahsdiu isudhaisdu sdiuhfsda",
+    text: "Lorem ipsum dolor sit tatis blanditiis voluptates explicabo!",
   },
   {
     heading: "Upcoming Event 2",
-    text: "dfuighwieurh ieruahsdiu isudhaisdu sdiuhfsda",
+    text: "Lorem ipsum dolor sit voluptates explicabo!",
   },
   {
     heading: "Upcoming Event 3",
-    text: "dfuighwieurh ieruahsdiu isudhaisdu sdiuhfsda",
+    text: "Lorem ipsum dolor sit tatis blanditiis voluptates !",
   },
 ];
 const cardIcons = `<i class="material-icons-outlined">

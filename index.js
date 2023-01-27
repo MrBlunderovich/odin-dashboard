@@ -63,6 +63,27 @@ star_outline
 </i><i class="material-icons-outlined">
 share
 </i>`;
+const trendingBlock = document.querySelector(".trending > .right-card");
+const trending = [
+  { username: "userone", text: "Lorem, ipsum dolor." },
+  { username: "usertwo", text: "Lorem, ipsum dolor." },
+  { username: "userthree", text: "Lorem, ipsum dolor." },
+  { username: "userfour", text: "Lorem, ipsum dolor." },
+];
+trendingBlock.innerHTML = trending
+  .map(
+    (item, index) =>
+      `<div class="trending__item">
+  <img
+    src="https://unsplash.it/100/100?random=${index + 1}"
+    alt="userpic"
+    class="userpic"
+  />
+  <h4>@${item.username}</h4>
+  <p>${item.text}</p>
+</div>`
+  )
+  .join("");
 const userName = "Biggus Dickus";
 userNameSmall.textContent = userName;
 userNameBig.textContent = `${userName} (@${userName
